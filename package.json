@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/JacobOlitsky/package-test-a#readme",
   "dependencies": {
-    "package-test-b": "git+ssh://git@github.com/JacobOlitsky/package-test-b.git#semver:^1.0.1"
+    "package-test-b": "git+ssh://git@github.com/JacobOlitsky/package-test-b.git#semver:^2.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",

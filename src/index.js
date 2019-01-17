@@ -1,2 +1,2 @@
-import message from 'package-test-b';
+import { message } from 'package-test-b';
 console.log(`Hello, ${message}`);
