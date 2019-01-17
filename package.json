@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/JacobOlitsky/package-test-a#readme",
   "dependencies": {
-    "package-test-b": "git+ssh://git@github.com:JacobOlitsky/package-test-b.git#semver:^1.0.0"
+    "package-test-b": "git+ssh://git@github.com/JacobOlitsky/package-test-b.git#semver:^1.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -29,7 +29,9 @@
     "@babel/preset-env": "^7.2.3"
   },
   "babel": {
-    "presets": ["@babel/preset-env"]
+    "presets": [
+      "@babel/preset-env"
+    ]
   },
   "browserslist": "current node"
 }
